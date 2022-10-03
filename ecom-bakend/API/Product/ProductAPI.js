@@ -58,7 +58,8 @@ router.post('/addProduct', (req, resp, next) => {
         name: req.body.name,
         price: req.body.price,
         rating: req.body.rating,
-        productURL:req.body.productURL
+        productURL:req.body.productURL,
+        description:req.body.description
     })
 
     productRecord.save()
@@ -105,7 +106,8 @@ router.get("/getProduct/:pID", (req, resp, next) => {
                 name: req.body.name,
                 price: req.body.price,
                 rating: req.body.rating,
-                productURL:req.body.productURL
+                productURL:req.body.productURL,
+                description:req.body.description
             }
         )
         //

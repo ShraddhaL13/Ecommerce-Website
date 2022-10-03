@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-inverse">
+    <nav className="navbar navbar-inverse bg-info">
       <div className="container-fluid">
         <div className="navbar-header">
           <a className="navbar-brand" href="/">
